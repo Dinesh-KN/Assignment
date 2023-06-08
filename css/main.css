@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 1.8px;
+}
+
+nav a:hover {
+    color: #555555;
+}
+
+.list-items,
+.list-icons {
+    display: flex;
+    line-height: 60px;
+}
+
+.list-items {
+    width: 60%;
+    justify-content: space-between;
+}
+
+.list-icons {
+    width: 5%;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    line-height: 60px;
+    font-size: 1.2rem;
+    display: none;
+}
+
+/* First Section */
+
+.hero-header {
+    width: 100%;
+    height: 93vh;
+    background-image: url("../images/image.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 40%;
+    height: auto;
+    margin: 120px;
+    padding: 3rem;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff686899;
+}
+
+.container h1 {
+    font-size: 3vw;
+    padding-bottom: 1rem;
+}
+
+.container p {
+    font-size: 1.2Vw;
+    line-height: 27px;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+}
+
+/* second Section */
+
+.order-now {
+    background-image: linear-gradient(to right, #ff6bc0, #ffda5d);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.order-now>h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 6rem 0 3rem;
+    font-size: 2.5vw;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    gap: 15px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 310px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.image img {
+    border-top-right-radius: 50px;
+}
+
+.content {
+    margin-top: 25px;
+    width: 320px;
+}
+
+.content>h2 {
+    font-size: 1.5vw;
+}
+
+.content>p {
+    margin: 10px;
+    line-height: 25px;
+    font-size: 1Vw;
+}
+
+button {
+    color: #000000;
+    background-color: #ffffff55;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 3rem 0 6rem;
+}
